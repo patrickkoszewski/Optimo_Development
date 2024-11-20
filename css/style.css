@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Global styles for body, layout, and page background */
 html,
 body {
   border: 2px solid black;
