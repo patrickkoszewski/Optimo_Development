@@ -14,18 +14,18 @@ body {
   background-color: #008000;
 }
 
-/* Styling of container */
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 /* Styling of navbar */
 .navbar {
   height: 65px;
   border-bottom: 4px solid black;
   background-color: #808000;
+}
+
+/* Styling of container */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* Styling of Diamond */
@@ -85,7 +85,14 @@ body {
   background-color: #0000ff;
 }
 
-/* Styling of circle*/
+/*Styling of main-circle*/
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+/* Styling of circle */
 .circle {
   width: 110px;
   height: 110px;
@@ -97,12 +104,21 @@ body {
 
 /* Styling of rectangle */
 .rectangle {
-  width: 200px;
-  height: 400px;
-  margin-left: 100px;
+  width: 85%;
+  height: 80vh;
+  margin: 50px 30px 50px 0px;
+  margin-bottom: 26px;
   text-align: center;
   line-height: 200px;
   border: 4px solid black;
-  background-color: #0000ff;
+  background-color: #ffffff;
   color: black;
+}
+
+/*Styling of ABC*/
+.Text {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 52px;
+  margin: 20px 60px 0px 60px;
 }
