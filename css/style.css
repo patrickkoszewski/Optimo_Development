@@ -21,3 +21,29 @@ body {
   border-bottom: 4px solid black;
   background-color: #808000;
 }
+
+/* Styling of Diamond */
+.diamond-section {
+  position: relative;
+  margin-top: 50px;
+}
+
+/*Styling of left diamond*/
+.diamond-left {
+  width: 130px;
+  height: 130px;
+  margin: 32px 0px 0px 176px;
+  border: 4px solid black;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+}
+
+/*Styling of right diamond*/
+.diamond-right {
+  width: 130px;
+  height: 130px;
+  margin-left: 34px;
+  border: 4px solid #000000;
+  background-color: #ff0000;
+  transform: rotate(45deg);
+}
