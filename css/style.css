@@ -193,6 +193,10 @@ body {
     height: 80vh;
     background-color: #c83737;
   }
+
+  .Text {
+    margin: 0 20px;
+  }
 }
 
 /* For screens <= 582px */
@@ -263,5 +267,11 @@ body {
     height: 40vh;
     margin: 20px 0px 15px 60px;
     background-color: #0000ff;
+  }
+
+  .Text {
+    text-align: center;
+    font-size: 44px;
+    margin: -30px;
   }
 }
