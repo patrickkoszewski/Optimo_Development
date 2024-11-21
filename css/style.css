@@ -127,6 +127,7 @@ body {
   line-height: 12.5rem;
   background-color: #ffffff;
   color: black;
+  transition: transform 0.3s ease;
 }
 
 /* Styling of ABC */
@@ -231,6 +232,7 @@ body {
     margin: 1.75rem 0 0 8.75rem;
   }
 
+  /* Diamond- rotate animation 360 + 45 */
   .diamond-left:active,
   .diamond-right:active {
     transform: rotate(405deg);
@@ -280,6 +282,11 @@ body {
     height: 40vh;
     margin: 1.25rem 0 0.9375rem 3.75rem;
     background-color: #0000ff;
+  }
+
+  /* Rectangle Animation 10% bigger */
+  .rectangle:active {
+    transform: scale(1.1);
   }
 
   .Text {
