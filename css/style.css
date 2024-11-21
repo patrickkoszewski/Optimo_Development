@@ -54,6 +54,7 @@ body {
   margin: 2.375rem 0 0 13rem;
   background-color: #ff0000;
   transform: rotate(45deg);
+  transition: transform 1s ease;
 }
 
 /* Styling of right diamond */
@@ -63,6 +64,7 @@ body {
   margin-left: 2.5rem;
   background-color: #ff0000;
   transform: rotate(45deg);
+  transition: transform 1s ease;
 }
 
 /* Styling of equals-circle-section */
@@ -227,6 +229,11 @@ body {
     width: 6.25rem;
     height: 6.25rem;
     margin: 1.75rem 0 0 8.75rem;
+  }
+
+  .diamond-left:active,
+  .diamond-right:active {
+    transform: rotate(405deg);
   }
 
   .diamond-left {
