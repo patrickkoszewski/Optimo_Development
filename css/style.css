@@ -134,6 +134,26 @@ body {
 
 /* For screens 583-900px */
 @media (min-width: 583px) and (max-width: 900px) {
+  body {
+    position: relative;
+    height: 100vh;
+    display: grid;
+  }
+
+  .container {
+    max-height: 80vh;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rectangle {
+    position: fixed;
+    width: 200px;
+    height: 80vh;
+    top: 80px;
+    right: -10px;
+  }
 }
 
 /* For screens <= 582px */
