@@ -21,6 +21,16 @@ body {
   background-color: #808000;
 }
 
+/*Black Border for all elements*/
+.diamond-left,
+.diamond-right,
+.line1,
+.line2,
+.circle,
+.rectangle {
+  border: 4px solid black;
+}
+
 /* Styling of container */
 .container {
   display: flex;
@@ -39,7 +49,6 @@ body {
   width: 130px;
   height: 130px;
   margin: 32px 0px 0px 176px;
-  border: 4px solid black;
   background-color: #ff0000;
   transform: rotate(45deg);
 }
@@ -49,7 +58,6 @@ body {
   width: 130px;
   height: 130px;
   margin-left: 34px;
-  border: 4px solid #000000;
   background-color: #ff0000;
   transform: rotate(45deg);
 }
@@ -72,7 +80,6 @@ body {
   width: 130px;
   height: 20px;
   margin: 17px 0px 40px 10px;
-  border: 4px solid black;
   background-color: #0000ff;
 }
 
@@ -81,7 +88,6 @@ body {
   width: 130px;
   height: 20px;
   margin-left: 10px;
-  border: 4px solid black;
   background-color: #0000ff;
 }
 
@@ -97,7 +103,6 @@ body {
   width: 110px;
   height: 110px;
   margin-left: 30px;
-  border: 4px solid black;
   border-radius: 50%;
   background-color: #008080;
 }
@@ -110,15 +115,14 @@ body {
   margin-bottom: 26px;
   text-align: center;
   line-height: 200px;
-  border: 4px solid black;
   background-color: #ffffff;
   color: black;
 }
 
 /*Styling of ABC*/
 .Text {
+  margin: 20px 60px 0px 60px;
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 52px;
-  margin: 20px 60px 0px 60px;
 }
