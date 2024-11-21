@@ -141,21 +141,37 @@ body {
   }
 
   .container {
-    max-height: 80vh;
-    max-width: 80%;
     display: flex;
     flex-direction: column;
+    max-height: 80vh;
+    max-width: 80%;
   }
 
   .rectangle {
     position: fixed;
-    width: 200px;
-    height: 80vh;
     top: 80px;
     right: -10px;
+    width: 200px;
+    height: 80vh;
   }
 }
 
 /* For screens <= 582px */
 @media (max-width: 583px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rectangle {
+    position: relative;
+    top: -180px;
+    width: 170px;
+    height: 40vh;
+    margin: 20px 0px 15px 60px;
+  }
 }
