@@ -138,6 +138,26 @@ body {
   font-size: 3.75rem;
 }
 
+/* Animations */
+
+/* circle Animation move 20% up */
+
+.circle:active {
+  transform: translateY(-20px);
+}
+
+/* Rectangle Animation 10% bigger */
+.rectangle:hover,
+.rectangle:active {
+  transform: scale(1.1);
+}
+
+/* Diamond- rotate animation 360 + 45 */
+.diamond-left:active,
+.diamond-right:active {
+  transform: rotate(405deg);
+}
+
 /* For screens 583-900px */
 @media (min-width: 583px) and (max-width: 900px) {
   body {
@@ -233,12 +253,6 @@ body {
     margin: 1.75rem 0 0 8.75rem;
   }
 
-  /* Diamond- rotate animation 360 + 45 */
-  .diamond-left:active,
-  .diamond-right:active {
-    transform: rotate(405deg);
-  }
-
   .diamond-left {
     width: 6.25rem;
     height: 6.25rem;
@@ -257,11 +271,6 @@ body {
     width: 6.25rem;
     height: 6.25rem;
     margin-left: 1.625rem;
-  }
-
-  /* circle Animation move 20% up */
-  .circle:active {
-    transform: translateY(-20px);
   }
 
   .line1 {
@@ -288,11 +297,6 @@ body {
     height: 40vh;
     margin: 1.25rem 0 0.9375rem 3.75rem;
     background-color: #0000ff;
-  }
-
-  /* Rectangle Animation 10% bigger */
-  .rectangle:active {
-    transform: scale(1.1);
   }
 
   .Text {
