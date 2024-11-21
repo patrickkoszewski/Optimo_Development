@@ -140,11 +140,46 @@ body {
     display: grid;
   }
 
+  .navbar {
+    height: 80px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
     max-height: 80vh;
     max-width: 80%;
+  }
+
+  .diamond-section {
+    position: absolute;
+    top: 88px;
+  }
+
+  .diamond-left {
+    width: 120px;
+    height: 120px;
+    margin: 28px 0 0 140px;
+  }
+
+  .diamond-right {
+    width: 120px;
+    height: 120px;
+    margin-left: 28px;
+  }
+
+  .equals-circle-section {
+    position: fixed;
+    bottom: 100px;
+    margin: 0px 0 0px 0px;
+  }
+
+  .line1 {
+    margin: 20px 0 30px 8px;
+  }
+
+  .line2 {
+    margin-left: 8px;
   }
 
   .rectangle {
@@ -153,6 +188,7 @@ body {
     right: -10px;
     width: 200px;
     height: 80vh;
+    background-color: #c83737;
   }
 }
 
