@@ -162,16 +162,64 @@ body {
     height: 100vh;
   }
 
+  .navbar {
+    height: 40px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
   }
 
+  .diamond-section {
+    width: 32%;
+    height: 28vh;
+    position: relative;
+  }
+
+  .diamond-left {
+    width: 100px;
+    height: 100px;
+    margin: 28px 0px 0px 140px;
+  }
+
+  .diamond-right {
+    width: 100px;
+    height: 100px;
+    margin-left: 28px;
+  }
+
+  .equals-circle-section {
+    position: relative;
+    top: -60px;
+    left: 2px;
+    height: 22vh;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin-left: 23px;
+  }
+
+  .line1 {
+    width: 100px;
+    height: 11px;
+    margin: 20px 0px 30px 8px;
+  }
+
+  .line2 {
+    width: 100px;
+    height: 11px;
+    margin-left: 8px;
+  }
+
   .rectangle {
     position: relative;
-    top: -180px;
+    top: -110px;
     width: 170px;
     height: 40vh;
     margin: 20px 0px 15px 60px;
+    background-color: #0000ff;
   }
 }
