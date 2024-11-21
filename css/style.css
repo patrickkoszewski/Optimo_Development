@@ -246,17 +246,17 @@ body {
   .circle {
     width: 100px;
     height: 100px;
-    margin-left: 23px;
+    margin-left: 26px;
   }
 
   .line1 {
-    width: 100px;
+    width: 120px;
     height: 11px;
     margin: 20px 0px 30px 8px;
   }
 
   .line2 {
-    width: 100px;
+    width: 120px;
     height: 11px;
     margin-left: 8px;
   }
@@ -264,8 +264,8 @@ body {
   /* Styling of rectangle section */
   .rectangle {
     position: relative;
-    top: -110px;
-    width: 170px;
+    top: -120px;
+    width: 190px;
     height: 40vh;
     margin: 20px 0px 15px 60px;
     background-color: #0000ff;
