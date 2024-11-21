@@ -119,9 +119,17 @@ body {
   color: black;
 }
 
-/*Styling of ABC*/
+/* Styling of ABC */
 .Text {
   margin: -40px 60px 0px 60px;
   text-align: center;
   font-size: 52px;
+}
+
+/* For screens 583-900px */
+@media (min-width: 583px) and (max-width: 900px) {
+}
+
+/* For screens <= 582px */
+@media (max-width: 583px) {
 }
