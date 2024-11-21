@@ -160,15 +160,15 @@ body {
   }
 
   .diamond-right {
-    width: 120px;
-    height: 120px;
-    margin: 28px 0 0 140px;
+    width: 140px;
+    height: 140px;
+    margin: 36px 0 0 190px;
   }
 
   .diamond-left {
-    width: 120px;
-    height: 120px;
-    margin-left: 28px;
+    width: 140px;
+    height: 140px;
+    margin-left: 40px;
   }
 
   /* Styling of equals-circle-section */
@@ -179,19 +179,19 @@ body {
   }
 
   .line1 {
-    margin: 20px 0 30px 8px;
+    margin: 20px 0 30px 16px;
   }
 
   .line2 {
-    margin-left: 8px;
+    margin-left: 16px;
   }
 
   /* Styling of rectangle section */
   .rectangle {
     position: fixed;
-    top: 80px;
+    top: 100px;
     right: -10px;
-    width: 200px;
+    width: 240px;
     height: 80vh;
     background-color: #c83737;
   }
