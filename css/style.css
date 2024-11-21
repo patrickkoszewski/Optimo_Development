@@ -110,6 +110,7 @@ body {
   margin-left: 1.9rem;
   border-radius: 50%;
   background-color: #008080;
+  transition: transform 0.3s ease;
 }
 
 /* Styling of rectangle section */
@@ -256,6 +257,11 @@ body {
     width: 6.25rem;
     height: 6.25rem;
     margin-left: 1.625rem;
+  }
+
+  /* circle Animation move 20% up */
+  .circle:active {
+    transform: translateY(-20px);
   }
 
   .line1 {
