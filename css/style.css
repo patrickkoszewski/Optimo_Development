@@ -39,10 +39,10 @@ body {
   justify-content: space-between;
 }
 
-/* Styling of Diamond */
+/* Styling of Diamond Section */
 .diamond-section {
   position: relative;
-  margin-top: 50px;
+  margin-top: -1px;
 }
 
 /* Styling of left diamond */
@@ -106,6 +106,12 @@ body {
   margin-left: 30px;
   border-radius: 50%;
   background-color: #008080;
+}
+
+/* Adjusts position for better visual alignment with other elements */
+.rectangle-section {
+  position: relative;
+  bottom: 20px;
 }
 
 /* Styling of rectangle */
