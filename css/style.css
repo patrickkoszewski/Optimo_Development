@@ -46,7 +46,7 @@ body {
 }
 
 /* Styling of left diamond */
-.diamond-left {
+.diamond-right {
   width: 130px;
   height: 130px;
   margin: 32px 0px 0px 176px;
@@ -55,7 +55,7 @@ body {
 }
 
 /* Styling of right diamond */
-.diamond-right {
+.diamond-left {
   width: 130px;
   height: 130px;
   margin-left: 34px;
@@ -156,13 +156,13 @@ body {
     top: 88px;
   }
 
-  .diamond-left {
+  .diamond-right {
     width: 120px;
     height: 120px;
     margin: 28px 0 0 140px;
   }
 
-  .diamond-right {
+  .diamond-left {
     width: 120px;
     height: 120px;
     margin-left: 28px;
@@ -213,13 +213,13 @@ body {
     position: relative;
   }
 
-  .diamond-left {
+  .diamond-right {
     width: 100px;
     height: 100px;
     margin: 28px 0px 0px 140px;
   }
 
-  .diamond-right {
+  .diamond-left {
     width: 100px;
     height: 100px;
     margin-left: 28px;
